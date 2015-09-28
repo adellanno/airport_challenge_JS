@@ -14,6 +14,13 @@ describe("Airport", function() {
     expect(airport.aircraftCount.length).toEqual(1);
   });
 
+  it("should be able to instruct a plane to take off", function() {
+    airport.landPlane("plane");
+    airport.landPlane("plane");
+    airport.takeOffPlane("plane");
+    expect(airport.aircraftCount.length).toEqual(1);
+  })
+
 
 
 });
