@@ -27,8 +27,4 @@ describe("Plane", function() {
 
 
 
-
-
-
-
 });
