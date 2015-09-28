@@ -6,7 +6,7 @@ Plane.prototype.land = function() {
   this.isFlying = false;
 };
 
-// Plane.prototype.flying = function() {
-//   true;
-// };
+Plane.prototype.takeOff = function() {
+  this.isFlying = true;
+};
 
